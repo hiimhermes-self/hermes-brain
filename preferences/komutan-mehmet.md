@@ -41,5 +41,12 @@
 
 ## Notlar
 - Kitap arama: Anna's Archive, LibGen, Z-Library.
-- eBook oluşturma ortamı: `~/ebook-tools` (Python venv + pandoc).
+- eBook olusturma ortami: `~/ebook-tools` (Python venv + pandoc).
 - Projeler: `~/ebook-projects/`
+
+## Session Bagimsiz Hafiza
+- **Ikincil beyin kasasi**: `~/hermes-brain/` — session'lar arasi kalici hafiza.
+- **GitHub yedegi**: `hiimhermes-self/hermes-brain`
+- **Yapisi**: systems/, projects/, ideas/, preferences/, logs/, failures/
+- **Kullanim**: Her session basinda preferences/ ve systems/ dosyalari okunur.
+- **Guncelleme**: Otonom script'ler calistiktan sonra ilgili kategoriye yazar.
