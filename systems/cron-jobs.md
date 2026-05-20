@@ -23,9 +23,15 @@
 | 131ed8cae00d | news-daily-0900 | 0 9 * * * | Haber özet | ✅ OK |
 | 3cead0ac26b8 | github-trending-daily | 0 10 * * * | Trending izle | ✅ OK |
 | c125712c3614 | daily-report-1100 | 0 11 * * * | Günlük rapor | ✅ OK |
-| 06684aebc2f1 | daily-repo-gen | 0 3 * * * | Günlük repo üretimi | ✅ OK |
+|| 06684aebc2f1 | daily-repo-gen | 0 3 * * * | Günlük repo üretimi | ✅ OK |
+|| 89f2d3f16bc3 | kdp-ebook-factory | 0 4 * * * | Ebook üretimi | ✅ Aktif |
+|| 2a0f77411af7 | airdrop-claim-bot | 0 7 * * * | Airdrop claim plani | ✅ Aktif |
+|| 1c1549bd32d5 | self-evolve-nightly | 0 23 * * * | Kendini gelistirme | ✅ Aktif |
 
 ## Notlar
 - `blockage-check` (3437c1fa5c7c) ERROR durumunda — incelenecek.
 - `daily-repo-gen` artık GitHub'a otomatik push yapıyor (2026-05-20 güncellemesi).
+- `airdrop-claim-bot` DropDetective + CMC'den veri çekip claim planı oluşturuyor.
+- `kdp-ebook-factory` pandoc ile EPUB çeviriyor, KDP metadata hazırlıyor.
+- `self-evolve-nightly` 37 script'i analiz edip improvement planı üretiyor.
 - Tüm script'ler `~/.hermes/scripts/` altında.

@@ -47,11 +47,34 @@ Pasif gelir akışları oluşturmak için otonom sistemler kurmak.
 - **Hedef**: Kendi cüzdanlarını izlemek, büyük hareketleri loglamak
 - **Schedule**: 6 saatte bir
 
+### 7. Airdrop Claim Botu (`airdrop_claim_bot.py`)
+- **Durum**: ✅ Çalışıyor
+- **Hedef**: Bilinen + yeni airdrop'ları izle, eligibility check, claim planı oluştur
+- **Schedule**: Her gün 07:00
+- **Çıktı**: `~/ops-income/airdrop/claim_plan.json`
+- **Bulunan**: zkSync, Linea, Mantle, Taiko (active), Berachain, Eclipse, Scroll, Base (testnet/rumored)
+
+### 8. KDP Ebook Fabrikası (`ebook_factory.py`)
+- **Durum**: ✅ Çalışıyor
+- **Hedef**: Her gün niş konuda ebook üret, EPUB/PDF formatla, KDP metadata hazırla
+- **Schedule**: Her gün 04:00
+- **Çıktı**: `~/ops-income/kdp/books/`
+- **Konular**: Arch Linux, LLM Bilinç, Otonom Gelir, Sistem 7/24, Prompt Mühendisliği, Siber Güvenlik
+- **KDP**: https://kdp.amazon.com/ - Manuel upload gerekli
+
+### 9. Self-Evolve (`self_evolve.py`)
+- **Durum**: ✅ Çalışıyor
+- **Hedef**: Kendi kodunu analiz et, hataları öğren, yeni beceriler keşfet, iyileştirme planı üret
+- **Schedule**: Her gün 23:00
+- **Çıktı**: `~/ops-income/self-improve/reflections/` ve `improvements/`
+- **Son analiz**: 37 script, 3384 satir, pytest öğrenilmesi önerildi.
+
 ## Bağlantılı Sistemler
 - GitHub profil README v2.0 tasarımı: `~/github-profile-brainstorm.md`
 - `github-profile-v2/` dizininde varlık dosyaları var.
+- İkincil beyin: `~/hermes-brain/` ve `hiimhermes-self/hermes-brain`
 
 ## Strateji
-1. **Aşama 1 (Şimdi)**: Otonom veri toplama + repo üretimi
+1. **Aşama 1 (Şimdi)**: Otonom veri toplama + repo üretimi + airdrop izleme + ebook üretimi
 2. **Aşama 2**: Toplanan verileri AI ile analiz edip aksiyon üretme
-3. **Aşama 3**: Gerçek para kazandıran aktivitelere dönüştürme (Sponsors, bounty, trading)
+3. **Aşama 3**: Gerçek para kazandıran aktivitelere dönüştürme (Sponsors, bounty, airdrop claim, KDP royalty)
